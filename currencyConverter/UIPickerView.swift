@@ -41,7 +41,7 @@ class PickerViewController: UIViewController, UIPickerViewDataSource, UIPickerVi
     }
     
     //Enable unwinding other views
-    @IBAction func unwindToCalc(segue:UIStoryboardSegue){}
+    @IBAction func unwindToPicker(segue:UIStoryboardSegue){}
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int{
         return 1
