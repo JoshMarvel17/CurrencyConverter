@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "77DCBD97E94221E3725D9D01B5889074D1193238",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "77DCBD97E94221E3725D9D01B5889074D1193238" : 9223372036854775807,
+    "D65710EB85686C586130CA300A7BA7F30072CA7A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "20CA7222-3E04-4F3C-A6DA-0E71719B1705",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "77DCBD97E94221E3725D9D01B5889074D1193238" : "currencyConverter\/",
+    "D65710EB85686C586130CA300A7BA7F30072CA7A" : "currencyConverter\/currencyConverter\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "currencyConverter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "currencyConverter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JoshMarvel17\/currencyConverter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77DCBD97E94221E3725D9D01B5889074D1193238"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JoshMarvel17\/currencyConverter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D65710EB85686C586130CA300A7BA7F30072CA7A"
+    }
+  ]
+}

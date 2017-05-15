@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0337D3C61EC90B050074E62D /* currencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337D3C51EC90B050074E62D /* currencyData.swift */; };
 		03D1BDA01EC56FB400645728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1BD9F1EC56FB400645728 /* AppDelegate.swift */; };
 		03D1BDA51EC56FB400645728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D1BDA31EC56FB400645728 /* Main.storyboard */; };
 		03D1BDA71EC56FB400645728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D1BDA61EC56FB400645728 /* Assets.xcassets */; };
 		03D1BDAA1EC56FB500645728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D1BDA81EC56FB500645728 /* LaunchScreen.storyboard */; };
-		03D1BDB41EC6382300645728 /* UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1BDB31EC6382300645728 /* UIPickerView.swift */; };
-		03D1BDB61EC6D4C600645728 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1BDB51EC6D4C600645728 /* UITableView.swift */; };
+		03D1BDB41EC6382300645728 /* UICurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1BDB31EC6382300645728 /* UICurrencyViewController.swift */; };
+		03D1BDBA1EC7D89A00645728 /* YQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1BDB81EC7D89900645728 /* YQL.swift */; };
+		03EBCE551EC96B4900C56B76 /* UIFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EBCE541EC96B4900C56B76 /* UIFavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0337D3C51EC90B050074E62D /* currencyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = currencyData.swift; sourceTree = "<group>"; };
 		03D1BD9C1EC56FB300645728 /* currencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D1BD9F1EC56FB400645728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D1BDA41EC56FB400645728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03D1BDA61EC56FB400645728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D1BDA91EC56FB500645728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03D1BDAB1EC56FB500645728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03D1BDB31EC6382300645728 /* UIPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerView.swift; sourceTree = "<group>"; };
-		03D1BDB51EC6D4C600645728 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		03D1BDB31EC6382300645728 /* UICurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICurrencyViewController.swift; sourceTree = "<group>"; };
+		03D1BDB81EC7D89900645728 /* YQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YQL.swift; path = "../../../../Downloads/swift-YQL-master/swift-YQL/YQL.swift"; sourceTree = "<group>"; };
+		03EBCE541EC96B4900C56B76 /* UIFavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				03D1BD9F1EC56FB400645728 /* AppDelegate.swift */,
-				03D1BDB31EC6382300645728 /* UIPickerView.swift */,
-				03D1BDB51EC6D4C600645728 /* UITableView.swift */,
+				03D1BDB31EC6382300645728 /* UICurrencyViewController.swift */,
 				03D1BDA31EC56FB400645728 /* Main.storyboard */,
+				03EBCE541EC96B4900C56B76 /* UIFavoritesViewController.swift */,
+				0337D3C51EC90B050074E62D /* currencyData.swift */,
+				03D1BDB81EC7D89900645728 /* YQL.swift */,
 				03D1BDA61EC56FB400645728 /* Assets.xcassets */,
 				03D1BDA81EC56FB500645728 /* LaunchScreen.storyboard */,
 				03D1BDAB1EC56FB500645728 /* Info.plist */,
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D1BDB41EC6382300645728 /* UIPickerView.swift in Sources */,
-				03D1BDB61EC6D4C600645728 /* UITableView.swift in Sources */,
+				03D1BDB41EC6382300645728 /* UICurrencyViewController.swift in Sources */,
+				03D1BDBA1EC7D89A00645728 /* YQL.swift in Sources */,
+				0337D3C61EC90B050074E62D /* currencyData.swift in Sources */,
 				03D1BDA01EC56FB400645728 /* AppDelegate.swift in Sources */,
+				03EBCE551EC96B4900C56B76 /* UIFavoritesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +313,7 @@
 				03D1BDB01EC56FB500645728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

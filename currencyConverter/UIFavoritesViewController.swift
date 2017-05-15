@@ -12,9 +12,9 @@ import UIKit
  FAVORITE VIEW CONTROLLER
  */
 
-class UITableView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class UIFavoritesViewController: UITableViewController{
     
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,8 +35,13 @@ class UITableView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     {
         self.performSegue(withIdentifier: "unwindToPicker", sender: self)
         
-        
     }
+    
+
+
+    
+    
+    
 
 
 }
